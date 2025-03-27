@@ -27,3 +27,27 @@ GET https://api.freeapi.app/api/v1/public/books
 ## Documentation
 
 https://freeapi.hashnode.space/api-guide/apireference/getBooks
+
+
+
+
+## Screenshots:
+
+### Grid view
+![alt text](image.png)
+
+### list view
+![alt text](image-1.png)
+
+### sorting obtions
+![alt text](image-2.png)
+
+### searching feature
+![alt text](image-3.png)
+
+### pagination
+![alt text](image-4.png)
+
+
+
+
