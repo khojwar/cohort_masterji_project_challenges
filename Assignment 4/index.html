@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Books Library</h1>
+            <div class="controls">
+                <div class="search-container">
+                    <input type="text" name="" id="search" placeholder="Search by title or author...">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+
+                <div class="sort-container">
+                    <label for="sort">Sort by:</label>
+                    <select id="sort">
+                        <option value="title">Title (A-Z)</option>
+                        <option value="-title">Title (Z-A)</option>
+                        <option value="date">Published Date (Oldest)</option>
+                        <option value="-date">Published Date (Newest)</option>
+                    </select>
+                </div>
+
+                <div class="view-toggle">
+                    <button id="list-view"><i class="fas fa-list"></i></button>
+                    <button id="grid-view" class="active"><i class="fas fa-th"></i></button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="books-container"></div>
+            <div id="loading" class="loading">Loading more books...</div>
+        </main>
+
+        
+        <div class="pagination">
+            <button id="prevPage">Previous</button>
+            <button id="nextPage">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
